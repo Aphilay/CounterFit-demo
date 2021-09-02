@@ -1,3 +1,5 @@
+#this program uses the CounterFit library to connect to mock sensors. It will use the camera on my laptop to snap an image once the program is ran.
+
 #sets up local connection on port 5000
 from counterfit_connection import CounterFitConnection
 CounterFitConnection.init('127.0.0.1', 5000)
